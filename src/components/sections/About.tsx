@@ -52,7 +52,7 @@ const About: React.FC = () => {
               <div className="w-48 h-48 lg:w-56 lg:h-56 rounded-2xl overflow-hidden magic-card p-1">
                 <div className="h-full w-full rounded-xl overflow-hidden relative">
                   <img
-                    src="/public/Shama.png"
+                    src="/Shama.png"
                     alt="SEO Copywriter at work"
                     className="object-cover h-full w-full"
                   />
