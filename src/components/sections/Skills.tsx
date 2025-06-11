@@ -41,21 +41,21 @@ const Skills: React.FC = () => {
     {
       category: 'Technical Skills',
       items: [
-        { name: 'SEO', level: 95 },
-        { name: 'Keyword Research', level: 90 },
-        { name: 'Analytics', level: 85 },
-        { name: 'Content Optimization', level: 90 },
-        { name: 'Technical Writing', level: 85 },
+        { name: 'SEO', level: 100 },
+        { name: 'Keyword Research', level: 100 },
+        { name: 'Analytics', level: 100 },
+        { name: 'Content Optimization', level: 100 },
+        { name: 'Technical Writing', level: 100 },
       ],
     },
     {
       category: 'Marketing & Research',
       items: [
-        { name: 'Market Research', level: 90 },
-        { name: 'Social Media', level: 85 },
-        { name: 'Data Analysis', level: 90 },
-        { name: 'Consumer Behavior', level: 85 },
-        { name: 'Brand Strategy', level: 90 },
+        { name: 'Market Research', level: 100 },
+        { name: 'Social Media', level: 100 },
+        { name: 'Data Analysis', level: 100 },
+        { name: 'Consumer Behavior', level: 100 },
+        { name: 'Brand Strategy', level: 100 },
       ],
     },
   ];
