@@ -75,7 +75,7 @@ const About: React.FC = () => {
             <p className="subtitle mb-6">
               I'm Shama, an SEO copywriter who creates captivating narratives that rank and convert by fusing creativity and data-driven strategy. I know how to create content that does more than just sit on a page; with an MBA in Marketing and practical experience in digital content, I can draw readers in, encourage clicks, and convert them into customers.
             </p>
-            <p className="text-text-secondary">
+            <p className="text-text-primary">
               When I'm not writing copy, I'm engrossed in Bharatanatyam, a dance style that emphasizes rhythm, narrative, and connection—all of which are similar to marketing. I apply the same enthusiasm to my work, producing content that is impactful and flows naturally.
             </p>
           </motion.div>
