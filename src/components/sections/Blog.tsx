@@ -106,7 +106,6 @@ const Blog: React.FC = () => {
     <section id="blog" className="py-20 bg-background-secondary/30">
       <div className="container-custom">
         <div className="text-center max-w-2xl mx-auto mb-12">
-          <span className="inline-block text-accent-blue mb-4">FEATURED ARTICLES</span>
           <h2 className="heading-lg mb-6">Latest Blog Posts</h2>
           <p className="subtitle">
             Explore my articles on pet care, nutrition, and wellness. Each piece combines SEO expertise
