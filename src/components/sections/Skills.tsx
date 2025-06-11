@@ -31,11 +31,11 @@ const Skills: React.FC = () => {
     {
       category: 'Content Creation',
       items: [
-        { name: 'SEO Copywriting', level: 95 },
-        { name: 'Content Strategy', level: 90 },
-        { name: 'Brand Storytelling', level: 95 },
-        { name: 'Blog Writing', level: 90 },
-        { name: 'Product Descriptions', level: 85 },
+        { name: 'SEO Copywriting', level: 100 },
+        { name: 'Content Strategy', level: 100 },
+        { name: 'Brand Storytelling', level: 100 },
+        { name: 'Blog Writing', level: 100 },
+        { name: 'Product Descriptions', level: 100 },
       ],
     },
     {
