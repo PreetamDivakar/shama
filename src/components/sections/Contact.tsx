@@ -72,7 +72,6 @@ const Contact: React.FC = () => {
   const socialLinks = [
     
     { icon: <Linkedin size={18} />, href: 'https://www.linkedin.com/in/shamamahesh/', label: 'LinkedIn' },
-    { icon: <Twitter size={18} />, href: 'https://twitter.com', label: 'Twitter' },
   ];
 
   const containerVariants = {
