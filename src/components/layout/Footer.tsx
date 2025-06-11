@@ -42,11 +42,11 @@ const Footer: React.FC = () => {
                   href="mailto:hello@example.com" 
                   className="hover:text-accent-blue transition-colors duration-300"
                 >
-                  hello@example.com
+                  shamahiregange1@gmail.com
                 </a>
               </li>
               <li>
-                <p>San Francisco, CA</p>
+                <p>Bengaluru, India</p>
               </li>
             </ul>
           </div>
