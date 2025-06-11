@@ -55,9 +55,7 @@ const Footer: React.FC = () => {
             <h4 className="text-lg font-semibold mb-4">Follow</h4>
             <div className="flex space-x-4">
               {[
-                { icon: <Github size={20} />, href: 'https://github.com' },
-                { icon: <Linkedin size={20} />, href: 'https://linkedin.com' },
-                { icon: <Twitter size={20} />, href: 'https://twitter.com' }
+                { icon: <Linkedin size={20} />, href: 'https://www.linkedin.com/in/shamamahesh/' },
               ].map((social, index) => (
                 <a 
                   key={index}
