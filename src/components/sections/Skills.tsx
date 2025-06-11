@@ -94,7 +94,6 @@ const Skills: React.FC = () => {
                   <div key={skillIndex}>
                     <div className="flex justify-between mb-2">
                       <span className="font-medium">{skill.name}</span>
-                      <span className="text-text-secondary">{skill.level}%</span>
                     </div>
                     <div className="h-2 bg-background-tertiary rounded-full overflow-hidden">
                       <motion.div
