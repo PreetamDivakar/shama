@@ -21,14 +21,14 @@ const Blog: React.FC = () => {
     {
       title: "Beaches se Bangalore tak: A Coastal Girl's Life in Bangalore",
       description: "A personal journey from the coastal beauty to the bustling tech city - exploring the transition, challenges, and discoveries of a coastal girl adapting to Bangalore life.",
-      image: "/beach.png",
+      image: "/b1.png",
       url: "",
       category: "Medium"
     },
     {
       title: "My Mom is My Backbone. Who's Yours?",
       description: "A heartfelt tribute to the strength, support, and unconditional love that mothers provide. Exploring the profound impact of maternal bonds on personal growth and resilience.",
-      image: "/atte.png",
+      image: "/b2.png",
       url: "https://medium.com/@shamahiregange1/my-mom-is-my-backbone-whos-yours-ceaeb89259b7",
       category: "Medium"
     },
