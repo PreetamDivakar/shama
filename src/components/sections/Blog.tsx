@@ -19,6 +19,20 @@ const Blog: React.FC = () => {
 
   const blogPosts: BlogPost[] = [
     {
+      title: "Beaches se Bangalore tak: A Coastal Girl's Life in Bangalore",
+      description: "A personal journey from the coastal beauty to the bustling tech city - exploring the transition, challenges, and discoveries of a coastal girl adapting to Bangalore life.",
+      image: "/beach.png",
+      url: "",
+      category: "Medium"
+    },
+    {
+      title: "My Mom is My Backbone. Who's Yours?",
+      description: "A heartfelt tribute to the strength, support, and unconditional love that mothers provide. Exploring the profound impact of maternal bonds on personal growth and resilience.",
+      image: "/atte.png",
+      url: "https://medium.com/@shamahiregange1/my-mom-is-my-backbone-whos-yours-ceaeb89259b7",
+      category: "Medium"
+    },
+    {
       title: "Adopt a Dog vs Buying: Making the Right Choice for Your Family",
       description: "A comprehensive guide to help you decide between adoption and purchasing a dog, considering factors like cost, responsibility, and ethical implications.",
       image: "https://images.pexels.com/photos/2607544/pexels-photo-2607544.jpeg",
@@ -106,6 +120,7 @@ const Blog: React.FC = () => {
     <section id="blog" className="py-20 bg-background-secondary/30">
       <div className="container-custom">
         <div className="text-center max-w-2xl mx-auto mb-12">
+          <span className="inline-block text-accent-blue mb-4">FEATURED ARTICLES</span>
           <h2 className="heading-lg mb-6">Latest Blog Posts</h2>
           <p className="subtitle">
             Explore my articles on pet care, nutrition, and wellness. Each piece combines SEO expertise
