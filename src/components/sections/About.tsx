@@ -45,11 +45,11 @@ const About: React.FC = () => {
           animate={inView ? 'visible' : 'hidden'}
           className="flex flex-col lg:flex-row gap-12 items-start" // Changed grid to flex and adjusted alignment
         >
-          <motion.div variants={itemVariants} className="relative lg:w-1/2"> {/* Added lg:w-1/2 for width control on larger screens */}
+          <motion.div variants={itemVariants} className="relative lg:w-1/2">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden magic-card p-1">
               <div className="h-full w-full rounded-xl overflow-hidden relative">
                 <img
-                  src="/public/Shama.png"
+                  src="/Shama.png"
                   alt="SEO Copywriter at work"
                   className="object-cover h-full w-full align-top"
                 />
@@ -59,19 +59,8 @@ const About: React.FC = () => {
 
             <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full bg-accent-blue/10 blur-xl"></div>
             <div className="absolute -top-6 -left-6 w-24 h-24 rounded-full bg-accent-purple/10 blur-xl"></div>
-          </motion.div>
 
-          <motion.div variants={itemVariants} className="lg:w-1/2"> {/* Added lg:w-1/2 for width control on larger screens */}
-            <div className="flex items-center mb-6"> {/* Flex container for "ABOUT ME" and potential inline image on smaller screens */}
-              <span className="inline-block text-accent-blue mr-4">ABOUT ME</span>
-              {/* You could potentially render a smaller version of the image here for mobile if needed */}
-            </div>
-            <h2 className="heading-lg mb-6">Every brand has a backstory. Making sure it's heard, loved, and remembered is my responsibility.</h2>
-            <p className="subtitle mb-6">
-            I'm Shama, an SEO copywriter blending creativity and data-driven strategy to craft content that ranks, engages, and converts. With an MBA in Marketing and hands-on digital experience, I create narratives that captivate and drive action.
-Beyond writing, I practice Bharatanatyam, a dance rooted in rhythm and storytelling—skills I bring into crafting impactful, natural-flowing content.
-            </p>
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 justify-items-center">
+            <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
               {stats.map((stat, index) => (
                 <motion.div
                   key={index}
@@ -86,6 +75,17 @@ Beyond writing, I practice Bharatanatyam, a dance rooted in rhythm and storytell
                 </motion.div>
               ))}
             </div>
+          </motion.div>
+
+          <motion.div variants={itemVariants} className="lg:w-1/2">
+            <div className="flex items-center mb-6">
+              <span className="inline-block text-accent-blue mr-4">ABOUT ME</span>
+            </div>
+            <h2 className="heading-lg mb-6">Every brand has a backstory. Making sure it's heard, loved, and remembered is my responsibility.</h2>
+            <p className="subtitle mb-6">
+            I'm Shama, an SEO copywriter blending creativity and data-driven strategy to craft content that ranks, engages, and converts. With an MBA in Marketing and hands-on digital experience, I create narratives that captivate and drive action.
+Beyond writing, I practice Bharatanatyam, a dance rooted in rhythm and storytelling—skills I bring into crafting impactful, natural-flowing content.
+            </p>
           </motion.div>
         </motion.div>
       </div>
