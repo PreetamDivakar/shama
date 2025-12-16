@@ -60,7 +60,7 @@ const About: React.FC = () => {
             <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full bg-accent-blue/10 blur-xl"></div>
             <div className="absolute -top-6 -left-6 w-24 h-24 rounded-full bg-accent-purple/10 blur-xl"></div>
 
-            <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6 justify-items-center max-w-xl mx-auto">
               {stats.map((stat, index) => (
                 <motion.div
                   key={index}
