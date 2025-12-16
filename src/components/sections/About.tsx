@@ -71,9 +71,7 @@ const About: React.FC = () => {
             I'm Shama, an SEO copywriter blending creativity and data-driven strategy to craft content that ranks, engages, and converts. With an MBA in Marketing and hands-on digital experience, I create narratives that captivate and drive action.
 Beyond writing, I practice Bharatanatyam, a dance rooted in rhythm and storytelling—skills I bring into crafting impactful, natural-flowing content.
             </p>
-           
-
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 justify-items-center">
               {stats.map((stat, index) => (
                 <motion.div
                   key={index}
