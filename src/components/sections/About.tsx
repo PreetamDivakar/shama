@@ -43,7 +43,7 @@ const About: React.FC = () => {
           variants={containerVariants}
           initial="hidden"
           animate={inView ? 'visible' : 'hidden'}
-          className="flex flex-col lg:flex-row gap-12 items-start" // Changed grid to flex and adjusted alignment
+          className="flex flex-col lg:flex-row gap-12 items-start"
         >
           <motion.div variants={itemVariants} className="relative lg:w-1/2">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden magic-card p-1">
@@ -59,22 +59,6 @@ const About: React.FC = () => {
 
             <div className="absolute -bottom-6 -right-6 w-32 h-32 rounded-full bg-accent-blue/10 blur-xl"></div>
             <div className="absolute -top-6 -left-6 w-24 h-24 rounded-full bg-accent-purple/10 blur-xl"></div>
-
-            <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6 justify-items-center max-w-xl mx-auto">
-              {stats.map((stat, index) => (
-                <motion.div
-                  key={index}
-                  variants={itemVariants}
-                  className="text-center p-4 magic-card glow-effect"
-                >
-                  <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-accent-blue/10 text-accent-blue mb-3">
-                    {stat.icon}
-                  </div>
-                  <h3 className="text-2xl font-bold">{stat.value}</h3>
-                  <p className="text-text-secondary text-sm">{stat.label}</p>
-                </motion.div>
-              ))}
-            </div>
           </motion.div>
 
           <motion.div variants={itemVariants} className="lg:w-1/2">
@@ -87,6 +71,25 @@ const About: React.FC = () => {
 Beyond writing, I practice Bharatanatyam, a dance rooted in rhythm and storytelling—skills I bring into crafting impactful, natural-flowing content.
             </p>
           </motion.div>
+        </motion.div>
+
+        <motion.div
+          variants={itemVariants}
+          className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6 justify-items-center"
+        >
+          {stats.map((stat, index) => (
+            <motion.div
+              key={index}
+              variants={itemVariants}
+              className="text-center p-4 magic-card glow-effect"
+            >
+              <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-accent-blue/10 text-accent-blue mb-3">
+                {stat.icon}
+              </div>
+              <h3 className="text-2xl font-bold">{stat.value}</h3>
+              <p className="text-text-secondary text-sm">{stat.label}</p>
+            </motion.div>
+          ))}
         </motion.div>
       </div>
     </section>
