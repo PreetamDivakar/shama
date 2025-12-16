@@ -29,33 +29,31 @@ const Skills: React.FC = () => {
 
   const skills = [
     {
-      category: 'Content Creation',
+      category: 'Core Skills',
       items: [
-        { name: 'SEO Copywriting', level: 100 },
-        { name: 'Content Strategy', level: 100 },
-        { name: 'Brand Storytelling', level: 100 },
-        { name: 'Blog Writing', level: 100 },
-        { name: 'Product Descriptions', level: 100 },
+        { name: 'Creative Copywriting', level: 100 },
+        { name: 'SEO & Content Strategy', level: 100 },
+        { name: 'Storytelling', level: 100 },
+        { name: 'Brand voice building', level: 100 },
+        { name: 'Conceptual thinking', level: 100 },
       ],
     },
     {
-      category: 'Technical Skills',
+      category: 'Tools & Platforms',
       items: [
-        { name: 'SEO', level: 100 },
-        { name: 'Keyword Research', level: 100 },
-        { name: 'Analytics', level: 100 },
-        { name: 'Content Optimization', level: 100 },
-        { name: 'Technical Writing', level: 100 },
+        { name: 'ChatGPT, Gemini, Claude, Perplexity', level: 100 },
+        { name: 'Content Management Systems (Shopify)', level: 100 },
+        { name: 'Google AdWords, Google Search Console', level: 100 },
+        { name: 'Google Analytics', level: 100 },
       ],
     },
     {
-      category: 'Marketing & Research',
+      category: 'Strategy & Collaboration',
       items: [
-        { name: 'Market Research', level: 100 },
-        { name: 'Social Media', level: 100 },
-        { name: 'Data Analysis', level: 100 },
-        { name: 'Consumer Behavior', level: 100 },
-        { name: 'Brand Strategy', level: 100 },
+        { name: 'Consumer Insights & Market Research', level: 100 },
+        { name: 'Time Management & Communication', level: 100 },
+        { name: 'Collaborative Execution', level: 100 },
+        { name: 'AI-Assisted Keyword Clustering', level: 100 },
       ],
     },
   ];
@@ -92,7 +90,7 @@ const Skills: React.FC = () => {
               <div className="space-y-6">
                 {skillGroup.items.map((skill, skillIndex) => (
                   <div key={skillIndex}>
-                    <div className="flex justify-between mb-2">
+                    <div className="flex mb-2">
                       <span className="font-medium">{skill.name}</span>
                     </div>
                     <div className="h-2 bg-background-tertiary rounded-full overflow-hidden">
