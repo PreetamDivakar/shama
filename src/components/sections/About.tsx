@@ -75,13 +75,13 @@ Beyond writing, I practice Bharatanatyam, a dance rooted in rhythm and storytell
 
         <motion.div
           variants={itemVariants}
-          className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6 justify-items-center"
+          className="mt-8 flex flex-col sm:flex-row gap-2 w-full"
         >
           {stats.map((stat, index) => (
             <motion.div
               key={index}
               variants={itemVariants}
-              className="text-center p-4 magic-card glow-effect"
+              className="flex-1 text-center p-4 magic-card glow-effect min-w-0"
             >
               <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-accent-blue/10 text-accent-blue mb-3">
                 {stat.icon}
