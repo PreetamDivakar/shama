@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
             className="mb-6"
           >
             <span className="inline-block px-4 py-2 rounded-full bg-accent-blue/10 text-accent-blue font-medium text-sm mb-4">
-              SEO Copywriter & Content Strategist
+              Digital Marketing Associate - SEO & Content Strategist
             </span>
           </motion.div>
           
