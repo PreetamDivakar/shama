@@ -67,7 +67,7 @@ const About: React.FC = () => {
             </div>
             <h2 className="heading-lg mb-6">Every brand has a backstory. Making sure it's heard, loved, and remembered is my responsibility.</h2>
             <p className="subtitle mb-6">
-            I'm Shama, an Digital marketing Associate - SEO, blending creativity and data-driven strategy to craft content that ranks, engages, and converts. With an MBA in Marketing and hands-on digital experience, I create narratives that captivate and drive action.
+            I'm Shama, a Digital Marketing Associate - SEO, blending creativity and data-driven strategy to craft content that ranks, engages, and converts. With an MBA in Marketing and hands-on digital experience, I create narratives that captivate and drive action.
 Beyond writing, I practice Bharatanatyam, a dance rooted in rhythm and storytelling—skills I bring into crafting impactful, natural-flowing content.
             </p>
           </motion.div>
