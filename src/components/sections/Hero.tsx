@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            I'm Shama, an SEO copywriter who creates captivating narratives that rank and convert by fusing creativity and data-driven strategy. I transform complex ideas into compelling content that engages readers and drives results.
+            I'm Shama, an Digital marketing associate - SEO, who creates captivating narratives that rank and convert by fusing creativity and data-driven strategy. I transform complex ideas into compelling content that engages readers and drives results.
           </motion.p>
           
           <motion.div 
